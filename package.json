@@ -1,5 +1,5 @@
 {
-  "id": "ch.airdispat.plugins.notes",
+  "id": "com.github.melange-app.plugin-notes",
   "name": "Notes",
   "version": "0.0.1",
   "description": "Publish notes to people who follow you.",
