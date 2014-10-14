@@ -1,7 +1,7 @@
 {
   "id": "com.github.melange-app.plugin-notes",
   "name": "Notes",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Publish notes to people who follow you.",
   "permissions": {
     "read-message": ["airdispat.ch/notes/title", "airdispat.ch/notes/body", "airdispat.ch/notes/date"],
