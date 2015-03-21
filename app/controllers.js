@@ -31,3 +31,9 @@ notesControllers.controller('NewCtrl', ['$scope', '$location', function($scope, 
   };
 
 }]);
+
+notesControllers.filter('mdown', ['$sce', function($sce) {
+    return function(txt) {
+        return $sce.trustAsHtml(marked(txt));
+    }
+}]);

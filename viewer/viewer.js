@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var s = i.split("/")
       var p = s[s.length - 1];
       d.components[p] = d.components[i];
+      d.components[p].html = marked(d.components[p].string);
       delete d.components[i];
     }
     var rendered = Mustache.render(template, d);
